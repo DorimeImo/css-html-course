@@ -1,0 +1,12 @@
+html{
+  background-color: rgb(253, 214, 252);
+}
+
+h1{
+  font-size: 50px;
+  text-decoration: inherit;
+}
+
+span{
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.x1{
+  color: red;
+}
+
+.x-weight{
+  font-weight: bold;
+}
+
+p.x1{
+  text-decoration: line-through;
+}
+
+span.x1{
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#id1{
+  color:orange;
+}
+
+p > span{
+  color: green;
+}
+
+p > b > i{
+  color:blue;
+}
+
+p b {
+  background-color: rgb(166,238,235);
+}
+
+span ~ b{
+  
+  background-color: red;
+}

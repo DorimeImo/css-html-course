@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Klassenselektoren</title>
+    <link rel="stylesheet" type="text/css" href="selektoren.css">
+  </head>
+
+  <body>
+    <p class="x1">Typeselektoren- you can use inheritanse.</p>
+    <p class="x1">Typeselektoren- you can relate the property of the class to a special tag.</p>
+    <span class="x1">Typeselektoren</span><br>
+    <span class="x-weight">Typeselektoren</span><br>
+
+    <br>
+    <p id="id1">ID-Selektoren - verwendet mann einmalig pro Seite.</p>
+    <br>
+
+    <p><span>Kindselektoren- you can set the style for the element, whic is
+      child of enother element by chaining them using operator >: html>body
+      >p>b>i>...</span></p>
+    <p><b><i>Kindselektoren</i></b></p>
+    <br>
+
+    <p>Nachfahrenselektoren- b-element goes after p-el. We can set the logic for
+       such neighborhood: just use p b and write the logic. No operators between, just p b<p>
+    <b>Nachfahrenselektoren</b>
+    <br>
+
+    <br>
+    <p>
+      <b>Geschwisterselektoren</b><br>
+      <span>Geschwisterselektoren- we can set the style for elements, which are
+        on the same level with operator ~. But note, that in x~x2, x2 should be
+        after x in your html</span><br>
+      <b>Geschwisterselektoren</b>
+    </p>
+
+    <br>
+    <p> DONT FORGET THAT YOU CAN COMBINE ALL THESE SELEKTOREN: html head ~ body
+      > p > b ~ #id1</p>
+
+
+  </body>
+</html>
