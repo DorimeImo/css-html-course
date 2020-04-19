@@ -1,0 +1,40 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  margin: 10px;
+}
+
+#predefined{
+  width: 20%;
+  height: 20%;
+  background-color: OliveDrab;
+}
+
+#hex{
+  width: 20%;
+  height: 20%;
+  background-color: #9EEEEF;
+}
+#rgb{
+  width: 20%;
+  height: 20%;
+  background-color: rgb(232, 12, 154);
+}
+#rgba{
+  width: 20%;
+  height: 20%;
+  background-color: rgba(232, 12, 154, 0.5);
+}
+#hex > #rgba {
+  width: 70%;
+  height: 70%;
+}
+#hsl{
+  width: 20%;
+  height: 20%;
+  background-color: hsl(100, 70%, 50%);
+}

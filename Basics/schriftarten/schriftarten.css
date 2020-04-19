@@ -1,0 +1,55 @@
+html{
+  height: 100%;
+}
+
+body{
+  font-family: 'Times New Roman', 'Verdana', sans-serif;
+}
+#font1{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: serif;
+}
+#font2{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: fantasy;
+}
+#font3{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: monospace;
+}
+#font4{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: sans-serif;
+}
+#font5{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: cursive;
+}
+#externalFont{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: 'Parisienne', cursive;
+}
+@@font-face {
+  font-family: "Lobster";
+  src: url(Lobster-Regular.ttf) format(truetype);
+  font-style: normal;
+  font-weight: normal;
+}
+#localFont{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+}

@@ -1,0 +1,20 @@
+div{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(248, 223, 197);
+  margin: 20px;
+}
+
+#div1{
+  border: 5px solid rgb(123, 223, 197);
+}
+#div2{
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(199, 130, 197);
+}
+#div3{
+  border-width: 5px;
+  border-style: outset;
+  border-color: rgb(199, 130, 45);
+}
