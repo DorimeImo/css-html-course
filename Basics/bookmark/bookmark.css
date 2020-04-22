@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(225, 67, 190);
+  margin-bottom: 10px;
+}
+
+#ourAim{
+  border: 5px solid rgb(134,167,98);
+}

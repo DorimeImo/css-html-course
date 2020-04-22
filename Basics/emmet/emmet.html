@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Emmet</title>
+		<link rel="stylesheet" type="text/css" href="">
+	</head>
+
+	<body>
+
+    div
+    <div></div>
+
+    h1*3
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+
+    div.test
+    <div class="test"></div>
+
+    div#test
+    <div id="test"></div>
+
+    div>ul.test>li*3
+    <div>
+      <ul class="test">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    p>div+span+img+a
+    <p>
+      <div></div>
+      <span></span>
+      <img src="" alt="">
+      <a href=""></a>
+    </p>
+
+    p>div+span^img+a
+    <p>
+      <div></div>
+      <span></span>
+    </p>
+    <img src="" alt="">
+    <a href=""></a>
+
+    div{Lets play}
+    <div>Lets play</div>
+
+    a[role="button" target="_blank"]
+      <a href="" role="button" target="_blank"></a>
+
+    div.class$*3
+    <div class="class1"></div>
+    <div class="class2"></div>
+    <div class="class3"></div>
+
+    div.class$$$$*3
+    <div class="class0001"></div>
+    <div class="class0002"></div>
+    <div class="class0003"></div>
+
+    div.class$@16*3
+    <div class="class16"></div>
+    <div class="class17"></div>
+    <div class="class18"></div>
+
+    div.class$@-16*3
+    <div class="class18"></div>
+    <div class="class17"></div>
+    <div class="class16"></div>
+
+    div.class$@-*3
+    <div class="class3"></div>
+    <div class="class2"></div>
+    <div class="class1"></div>
+
+    div>(p>span)+img
+    <div>
+      <p><span></span></p>
+      <img src="" alt="">
+    </div>
+
+
+
+	</body>
+
+</html>
