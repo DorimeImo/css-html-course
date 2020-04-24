@@ -1,0 +1,22 @@
+.test{
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 800px){
+
+  .test{
+    width: 500px;
+    height: 500px;
+    background: green;
+  }
+}
+
+@media (min-width: 800px){
+
+  .test{
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+}

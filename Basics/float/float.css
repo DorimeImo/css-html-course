@@ -1,0 +1,22 @@
+html, body{
+  width: auto;
+  height: 10000px;
+}
+
+.float-left{
+  float: left;
+
+}
+
+.float-right{
+  float:right;
+}
+
+p{
+  background-color: grey;
+}
+
+.no-float{
+
+
+}

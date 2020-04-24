@@ -31,5 +31,23 @@ div{
 #div6{
   background-image: url("original (1).png");
   background-repeat: no-repeat;
-  background-position:
+  background-position: right bottom;
+}
+
+#div7{
+  background-image: url("original (1).png");
+  background-repeat: no-repeat;
+  background-position: 50% 200px;
+}
+
+#div8{
+  background-image: url("original (1).png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+#div9{
+  background: red url("original (1).png") no-repeat fixed left 20px top 200px;
+
+
 }

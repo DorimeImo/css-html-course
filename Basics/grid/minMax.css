@@ -1,0 +1,38 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  display: block;
+}
+
+#test01{
+  min-width: 400px;
+}
+
+#test02{
+  max-width: 300px;
+}
+
+#test03{
+  max-height: 100px;
+}
+
+#test04{
+  min-height: 100px;
+}
+
+.width{
+  width: 40%;
+  height: auto;
+}
+
+.height{
+  height: 40%;
+  width: auto;
+}

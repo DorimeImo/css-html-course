@@ -1,0 +1,11 @@
+p{
+  background-color: rgb(78,115, 110);
+}
+
+.float-left{
+  float:left;
+}
+
+.clear-left{
+  clear:left;
+}

@@ -1,0 +1,26 @@
+[href]{
+  background-color: grey;
+}
+
+[id="iD1" i]{
+  display: block;
+}
+
+[class~="image"]{
+  height: 300px;
+
+}
+
+[class |= "test"]{
+    width: 300px;
+}
+
+[title$=attributes]{
+  background-color: red;
+}
+
+[id*=d]{
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+}

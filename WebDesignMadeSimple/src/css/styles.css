@@ -65,3 +65,91 @@ body{
 .active{
   background-color: #a62c21;
 }
+
+/*== Header Banner==*/
+
+ .header-banner{
+   width: 100%;
+   height: auto;
+   padding-top: 20.83%;
+   background: url("../img/hintergrund.jpg") no-repeat center center;
+   background-size: contain;
+ }
+
+ .header-banner-small{
+   width: 100%;
+   height: auto;
+   padding-top: 15.62%;
+   background: url("../img/hintergrund-klein.jpg") no-repeat center center;
+   background-size: contain;
+ }
+
+ /*== GRID System (visibility)==*/
+
+ .border, .border *{
+   border: 1px solid #91c4ff;
+ }
+
+ [class*="col-"]{
+   background-color: #bfddff;
+ }
+
+ p{
+   background-color: #91c4ff;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+
+ /*== GRID System==*/
+
+ .container{
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .row::after{
+   content:"";
+   clear: both;
+   display: block;
+ }
+
+[class*="col-"]{
+  float: left;
+  padding: .8rem;
+}
+
+  .col-1{width: 16.666%;}
+  .col-2{width: 33.333%;}
+  .col-3{width: 50%;}
+  .col-6{width: 100%;}
+
+  /*==
+  GRID Breakpoints
+
+  width:
+  >1024px
+  1024px - Laptop
+  768px - iPad(high format)
+  480px - iPad(square format)
+  ==*/
+
+  @media (max-width: 1024px) {
+
+    .col-1{width: 33.333%;}
+
+  }
+
+  @media (max-width: 768px) {
+
+    .col-1{width: 50%;}
+    .col-2{width: 100%;}
+    .col-3{width: 100%;}
+
+  }
+  @media (max-width: 480px) {
+
+    .col-1{width: 100%;}
+
+  }
