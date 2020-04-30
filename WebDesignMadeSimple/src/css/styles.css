@@ -15,9 +15,28 @@ body{
   clear: both;
 }
 
+.important-text{
+  font-weight: bold;
+}
+
+.active{
+  background-color: #a62c21 !important;
+}
+
+.screenreader{
+  display: none;
+}
+
+.btn-type-1{
+  background-color: #a62c21;
+  border: 0px;
+  color: white;
+  padding: .4rem;
+}
+
 /*== Navigation bar==*/
 
-.header-nav{
+#header-nav{
   width: 100%;
   height: 50px;
   background-color: #3d3f45;
@@ -25,62 +44,60 @@ body{
   font-weight: bold;
 }
 
-.header-nav  a > img{
+#header-nav  a > img{
   float: left;
   margin: 0.55rem;
   height: 30px;
   width: auto;
 }
 
-.header-nav ul {
+#header-nav ul {
   margin: 0;
   float: right;
   right: 2rem;
   height: 100%;
 }
 
-.header-nav ul > li{
+#header-nav ul > li{
   display: inline-block;
   padding: 0 .7rem 0 .7rem;
   height: 100%;
 }
 
-.header-nav ul > li > a {
+#header-nav ul > li > a {
   display: inline-block;
   margin-top: .8rem;
 }
 
-.header-nav ul > li > a:link{
+#header-nav ul > li > a:link{
   color: white;
   text-decoration: none;
 }
-.header-nav ul > li > a:active{
+#header-nav ul > li > a:active{
   display: inline-block;
   color: white;
   text-decoration: none;
 }
-.header-nav ul > li > a:visited{
+
+#header-nav ul > li > a:visited{
   color: white;
   text-decoration: none;
 }
-.header-nav ul > li > a:hover{
+
+#header-nav ul > li > a:hover{
   color: blue;
   text-decoration: none;
 }
 
-.header-nav .container,
-.header-nav .row,
-.header-nav .col-6{
+#header-nav .container,
+#header-nav .row,
+#header-nav .col-6{
   height: 100%;
 }
 
-.header-nav .col-6{
+#header-nav .col-6{
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.active{
-  background-color: #a62c21 !important;
 }
 
 /*== Navigation assistent (Mobile)==*/
@@ -128,17 +145,26 @@ body{
   display: block;
 }
 
-.mobile-nav{
+#mobile-nav ul li{
+  width: 100%;
+  text-align: center;
+}
+
+#mobile-nav ul li a{
+  margin: .4rem;
+}
+
+#mobile-nav{
   display:none;
 }
 
 @media (max-width: 768px) {
 
-  .desktop-nav{
+  #desktop-nav{
     display: none;
   }
 
-  .mobile-nav{
+  #mobile-nav{
     display: block;
   }
 
@@ -146,7 +172,7 @@ body{
 
 /*== Header Banner==*/
 
- .header-banner{
+ #header-banner{
    width: 100%;
    height: auto;
    padding-top: 20.83%;
@@ -154,13 +180,84 @@ body{
    background-size: contain;
  }
 
- .header-banner-small{
+ #header-banner-small{
    width: 100%;
    height: auto;
    padding-top: 15.62%;
    background: url("../img/hintergrund-klein.jpg") no-repeat center center;
    background-size: contain;
  }
+
+  /*== Newsletter field==*/
+
+   #newsletter-field{
+     width: 100%;
+     background-color: #3d3f45;
+   }
+
+    #nf-form{
+        margin-top: .8rem;
+        width: 100%;
+        float: right;
+        text-align: right;
+
+    }
+
+   #nf-text{
+     color: white;
+     font-size:1.2rem;
+   }
+
+   #nf-email-input{
+     width: 78%;
+     height: 35px;
+     border: 2px solid white;
+     padding: .4rem;
+   }
+
+   #nf-btn{
+     height: 35px;
+   }
+
+   @media(max-width: 1248px){
+     #nf-email-input{
+       width: 70%;
+     }
+   }
+
+   @media(max-width: 940px){
+     #nf-email-input{
+       width: 100%;
+       margin-bottom: .2rem;
+     }
+
+     #nf-btn{
+       width: 100%;
+     }
+   }
+
+   @media (max-width: 768px){
+     #nf-text{
+       display: none;
+     }
+     #nf-form{
+         margin: 0;
+     }
+     #newsletter-field .col-4{
+       display: none;
+     }
+   }
+
+   @media (max-width: 468px){
+     #nf-email-input{
+       height: 25px;
+     }
+
+     #nf-btn{
+      height: 25px;
+     }
+   }
+
 
  /*== GRID System (visibility)
 
@@ -202,19 +299,21 @@ body{
 
   .col-1{width: 16.666%;}
   .col-2{width: 33.333%;}
+  .col-4{width: 66.666%;}
   .col-3{width: 50%;}
   .col-6{width: 100%;}
 
 
 
   /*==
-  GRID Breakpoints==*/
+  GRID Breakpoints
 
   width:
   >1024px
   1024px - Laptop
   768px - iPad(high format)
   480px - iPad(square format)
+  ==*/
 
 
   @media (max-width: 1024px) {
@@ -228,6 +327,7 @@ body{
     .col-1{width: 50%;}
     .col-2{width: 100%;}
     .col-3{width: 100%;}
+    .col-4{width: 100%;}
 
   }
   @media (max-width: 480px) {

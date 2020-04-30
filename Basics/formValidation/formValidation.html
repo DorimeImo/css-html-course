@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Form Validation</title>
+	</head>
+
+	<body>
+
+    <form action="formValidation.html" method="get">
+
+      <label for="email">Email: </label>
+      <input id="email" type="text" name="email" placeholder="Email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required">
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+	</body>
+
+</html>

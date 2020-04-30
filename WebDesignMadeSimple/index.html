@@ -14,9 +14,9 @@
 
 <!--Navigation bar-->
 
-		<nav class="header-nav">
+		<nav id="header-nav">
 
-			<div class="container desktop-nav">
+			<div class="container" id="desktop-nav">
 				<div class="row">
 					<div class="col-6">
 
@@ -35,7 +35,7 @@
 					</div>
 					</div>
 
-		<div class="container mobile-nav">
+		<div class="container" id="mobile-nav">
 			<div class="row">
 				<div class="col-6">
 
@@ -66,39 +66,38 @@
 
 		</nav>
 
-	<!--Header banner-->
+		<!--Header banner-->
 
-		<header class="header-banner"></header>
+		<header id="header-banner"></header>
 
-   	<!--GRID System
+   	<!--Newsletter field-->
 
-	 <div class="container border">
-	 	<div class="row">
-			<div class="col-1"><p>col-1</p></div>
-		 	<div class="col-1"><p>col-1</p></div>
-		 	<div class="col-1"><p>col-1</p></div>
-		 	<div class="col-1"><p>col-1</p></div>
-		 	<div class="col-1"><p>col-1</p></div>
-		 	<div class="col-1"><p>col-1</p></div>
-		</div>
+		<section id="newsletter-field">
 
-		<div class="row">
-			<div class="col-2"><p>col-2</p></div>
-			<div class="col-2"><p>col-2</p></div>
-			<div class="col-2"><p>col-2</p></div>
-		</div>
+			<div class="container">
+				<div class="row">
 
-		<div class="row">
-			<div class="col-3"><p>col-3</p></div>
-			<div class="col-3"><p>col-3</p></div>
-		</div>
+					<div class="col-4">
+						<p id="nf-text"><span class="important-text">Subscrite for the latest news!</span> Input your email to participate in our weekly mailing. </p>
+					</div>
 
-		<div class="row">
-			<div class="col-6"><p>col-6</p></div>
-		</div>
-	 </div>
+					<div class="col-2 clearfix">
+						<form id="nf-form" action="index.html" method="get">
 
--->
+							<label class="screenreader" for="nf-email-input">Email: </label>
+							<input id="nf-email-input" type="text" name="email" placeholder="Your Email"
+							 pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
+
+							<button class="btn-type-1 important-text" id="nf-btn" type="submit">Subscribe</button>
+
+						</form>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
 
 	</body>
 
