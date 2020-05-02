@@ -4,8 +4,14 @@ body{
   font-family: 'Raleway', 'Lato','Helvetica Neue','Arial', sans-serif;
   font-size: 16px;
 }
+
 *{
   box-sizing: border-box;
+}
+
+:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px #e5e5e5, 0 0 10px #e5e5e5;
 }
 
 /*== General==*/
@@ -98,6 +104,10 @@ body{
 #header-nav .col-6{
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.logo-link{
+  display: inline-block;
 }
 
 /*== Navigation assistent (Mobile)==*/

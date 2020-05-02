@@ -1,0 +1,23 @@
+div{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 0.2rem solid purple;
+  margin: 2rem;
+}
+
+#Test01{
+  box-shadow: .3rem .3rem grey;
+}
+
+#Test02{
+  box-shadow: .3rem .3rem 10px #F032AC;
+}
+
+#Test03{
+  box-shadow: .3rem .3rem 10px 10px #a33EB9;
+}
+
+#Test04{
+  box-shadow: .3rem .3rem 10px 10px #af0ff0 inset;
+}
